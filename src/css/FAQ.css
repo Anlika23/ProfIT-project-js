@@ -1,0 +1,27 @@
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  background-color: inherit;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-top: 1px solid #fafafa;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: var(--card-clr);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+/* media desctop */
