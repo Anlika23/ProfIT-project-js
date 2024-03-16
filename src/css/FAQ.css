@@ -1,0 +1,9 @@
+.accordion {
+  border: 2px dashed #ccc;
+  padding: 20px;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+}
