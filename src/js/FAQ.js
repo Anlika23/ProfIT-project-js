@@ -1,15 +1,2 @@
-document.querySelectorAll('.accordion').array.forEach(el => {
-  el.addEventListener('click', () => {
-    let content = el.nextElementSibling;
-    if (content.style.maxHeight) {
-      document
-        .querySelectorAll('content')
-        .forEach(el => (el.style.maxHeight = null));
-    } else {
-      document
-        .querySelectorAll('content')
-        .forEach(el => (el.style.maxHeight = null));
-      content.style.maxHeight = content.scrollHeight + 'px';
-    }
-  });
-});
+import Accordion from 'accordion-js';
+import 'accordion-js/dist/accordion.min.css';
